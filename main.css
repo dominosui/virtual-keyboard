@@ -1,0 +1,46 @@
+#keyboard {
+	width: 50%;
+	color: #fff;
+	background-color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+}
+li {
+	float: left;
+	list-style-type: none;
+	width: 8.5%;
+	background-color: gray;
+	margin: 0 0 1% 1.5%;
+	box-sizing: border-box;
+	text-align: center;
+	border-radius: 5px;
+	padding: 0.5em 0;
+	cursor: pointer;
+}
+li.one-fifth {
+	width: 18.5%;
+}
+li.one-half {
+	width: 48.5%;
+} 
+li.one-third {
+	width: 31.833333333%;
+}
+li.three-tenths {
+	width: 28.5%;
+}
+
+li.shift-key {
+	text-transform: uppercase;
+}
+
+#output{
+	clear: both;
+}
+
+.qwerty.shift {
+	text-transform: uppercase;
+}
+
+.none {
+	display: none;
+}
