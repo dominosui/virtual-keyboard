@@ -16,6 +16,10 @@ li {
 	padding: 0.5em 0;
 	cursor: pointer;
 }
+li.focus{
+	background-color: rgb(219, 217, 217);
+	color: #000;
+}
 li.one-fifth {
 	width: 18.5%;
 }
